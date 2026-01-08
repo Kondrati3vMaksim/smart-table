@@ -80,7 +80,7 @@ const applyFiltering = initFiltering(sampleTable.filter.elements, {
 });
 
 // Инициализация поиска
-
+123123123123123123123123123
 const applySearching = initSearching("search", ["date", "customer", "seller"]);
 
 const appRoot = document.querySelector("#app");
