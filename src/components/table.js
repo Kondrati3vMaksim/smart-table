@@ -22,7 +22,7 @@ export function initTable(settings, onAction) {
     root.container.append(root[subName].container);
   });
   // @todo: #1.3 —  обработать события и вызвать onAction()
-  root.container.addEventListener("chenge", () => {
+  root.container.addEventListener("change", () => {
     onAction();
   });
 
