@@ -39,8 +39,7 @@ function render(action) {
   let state = collectState(); // состояние полей из таблицы
   let result = [...data]; // копируем для последующего изменения
   // @todo: использование
-  
-  
+
   result = applySorting(result, state, action);
   result = applyPagination(result, state, action);
   sampleTable.render(result);
@@ -80,7 +79,7 @@ const applyFiltering = initFiltering(sampleTable.filter.elements, {
 });
 
 // Инициализация поиска
-123123123123123123123123123
+
 const applySearching = initSearching("search", ["date", "customer", "seller"]);
 
 const appRoot = document.querySelector("#app");
